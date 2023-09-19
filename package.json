@@ -1,0 +1,10 @@
+{
+  "name": "lokiweb",
+  "version": "1.0.0",
+  "description": "Landing page for Loki",
+  "main": "index.js",
+  "repository": "https://github.com/uniberry-info/lokiweb",
+  "author": "Stefano Pigozzi <me@steffo.eu>",
+  "license": "MIT",
+  "private": true
+}
