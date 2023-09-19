@@ -11,6 +11,7 @@
     "@11ty/eleventy": "^2.0.1"
   },
   "scripts": {
-    "dev": "eleventy --serve --incremental --input=. --output=./docs"
+    "dev": "eleventy --serve --incremental --input=. --output=./docs",
+    "build": "eleventy --input=. --output=./docs"
   }
 }
