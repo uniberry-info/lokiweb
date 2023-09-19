@@ -3,4 +3,6 @@ module.exports = function(eleventyConfig) {
         trimBlocks: true,
         lstripBlocks: true,
     })
+
+    eleventyConfig.addPassthroughCopy("./_pass");
 }
