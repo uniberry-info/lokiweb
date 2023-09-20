@@ -1,0 +1,78 @@
+:root {
+	--body-background: #260909;
+	--body-foreground: #e6bebe;
+	--body-accent: #ffffff;
+	--interactive-default: #d14224;
+	--interactive-hover: #d15238;
+	--interactive-text: #ffffff;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--body-background);
+	color: var(--body-foreground);
+	font-family: sans-serif;
+}
+
+hgroup :is(h1, h2, h3, h4, h5, h6) {
+	margin: 0.2em 0;
+}
+
+h1, h2, h3, h4, h5, h6, footer, .center {
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, b, strong, i {
+	color: var(--body-accent);
+}
+
+a {
+	color: var(--interactive-default);
+}
+
+a:hover, a:focus, a:active {
+	color: var(--interactive-hover);
+	text-shadow: 0 0 6px var(--interactive-hover);
+}
+
+hr {
+	border: 1px dashed var(--interactive-default);
+
+	margin: 3rem 0;
+}
+
+code {
+	font-size: larger;
+}
+
+details {
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+}
+
+summary {
+	cursor: pointer;
+	color: var(--interactive-default);
+}
+
+summary:hover, summary:focus, summary:active {
+	color: var(--interactive-hover);
+}
+
+img {
+	box-shadow: 2px 2px 0 black;
+	border-radius: 4px;
+}
+
+header a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header a img {
+	border-radius: 100%;
+}

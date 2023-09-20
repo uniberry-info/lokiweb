@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>{{ title }} · Uniberry</title>
+		<link rel="stylesheet" href="/_pass/style.css" type="text/css">
+	</head>
+	<body>
+		<header>
+			<hgroup>
+				<h1>
+					<a href="/">
+						<img src="/_pass/icon.png" width="64" height="64"/>
+						<span>Uniberry</span>
+					</a>
+				</h1>
+				<h2>
+					{{ title }}
+				</h2>
+			</hgroup>
+		</header>
+		<main>
+			{{ content | safe }}
+		</main>
+		<footer>
+
+		</footer>
+	</body>
+</html>
