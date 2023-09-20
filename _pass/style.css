@@ -15,6 +15,10 @@ body {
 	background-color: var(--body-background);
 	color: var(--body-foreground);
 	font-family: sans-serif;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 8px;
 }
 
 hgroup :is(h1, h2, h3, h4, h5, h6) {
@@ -44,27 +48,24 @@ hr {
 	margin: 3rem 0;
 }
 
+@media (max-width: 800px) {
+	hr {
+		margin: 1rem 0;
+	}
+}
+
 code {
 	font-size: larger;
-}
-
-details {
-	margin-block-start: 1em;
-	margin-block-end: 1em;
-}
-
-summary {
-	cursor: pointer;
-	color: var(--interactive-default);
-}
-
-summary:hover, summary:focus, summary:active {
-	color: var(--interactive-hover);
 }
 
 img {
 	box-shadow: 2px 2px 0 black;
 	border-radius: 4px;
+	vertical-align: sub;
+}
+
+li {
+	margin: 12px 0;
 }
 
 header a {
@@ -75,4 +76,65 @@ header a {
 
 header a img {
 	border-radius: 100%;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.row > * {
+	width: 100%;
+	padding: 0 16px;
+}
+
+.row > *:not(:last-child) {
+	border-right: 1px dashed var(--interactive-default);
+}
+
+@media (max-width: 800px) {
+	.row {
+		flex-direction: column;
+	}
+
+	.row > * {
+		padding: unset;
+		border-top: 1px dashed var(--interactive-default);
+	}
+
+	.row > *:not(:last-child) {
+		border-right: none;
+	}
+}
+
+.btn {
+	display: inline-block;
+
+	padding: 8px;
+	border-width: 2px;
+	border-radius: 4px;
+
+	border-style: outset;
+
+	background-color: var(--interactive-default);
+	border-color: var(--interactive-default);
+	color: var(--interactive-text);
+
+	text-decoration: none;
+}
+
+.btn:hover, .btn:focus, .btn:active {
+	background-color: var(--interactive-hover);
+	border-color: var(--interactive-hover);
+
+	color: var(--interactive-text);
+	box-shadow: 0 0 4px var(--interactive-hover);
+}
+
+.btn:active {
+	border-style: inset;
+}
+
+.screenshot {
+	width: 100%;
 }
