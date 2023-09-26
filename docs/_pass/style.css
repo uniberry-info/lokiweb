@@ -78,6 +78,10 @@ header a img {
 	border-radius: 100%;
 }
 
+footer {
+	font-size: small;
+}
+
 .row {
 	display: flex;
 	flex-direction: row;
