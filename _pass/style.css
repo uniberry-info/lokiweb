@@ -35,9 +35,14 @@ h1, h2, h3, h4, h5, h6, b, strong, i {
 
 a {
 	color: var(--interactive-default);
+	cursor: not-allowed;
 }
 
-a:hover, a:focus, a:active {
+a[href] {
+	cursor: pointer;
+}
+
+a[href]:hover, a[href]:focus, a[href]:active {
 	color: var(--interactive-hover);
 	text-shadow: 0 0 6px var(--interactive-hover);
 }
