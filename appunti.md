@@ -33,7 +33,9 @@ Puoi trovare qui sotto le risorse condivise negli anni dagli studenti:
 - **[Appunti di Singh_Harprit](https://singh-app.pages.dev)** di [`@Har03Singh:telegram.org`](https://t.me/Har03Singh)
   - Appunti su **Fisica**
 - **[Obsiview](https://gh.steffo.eu/obsiview/?vault=https%3A%2F%2Fraw.githubusercontent.com%2FSteffo99%2Fappunti-magistrali%2Fmain%2F&path=README.md)** di [`@steffo:uniberry.info`](https://www.steffo.eu/)
-	- Appunti su **vari corsi della magistrale** (work-in-progress!)
+  - Appunti su **vari corsi della magistrale** (work-in-progress!)
+- **[Appunti Cdl Informatica Magistrale](https://www.notion.so/Appunti-Universit-0d4e3e9de000419ca7bbd92f631c1c75)** di [Lorenzo Stigliano](https://t.me/MaxBubblegum)
+  - Appunti di tutti i corsi seguiti durante il corso della laurea magistrale in Informatica
 
 - ***<a>Drive magistrale</a>*** di *<a>diversi studenti</a>*
   - Appunti su **tutti i corsi della magistrale**
