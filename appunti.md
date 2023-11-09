@@ -49,4 +49,4 @@ Hai scritto degli appunti?
 
 Aiuta altri studenti pubblicandoli e aggiungendoli qui!
 
-Contatta [`@steffo:uniberry.info`](https://www.steffo.eu) se hai bisogno di consigli per la pubblicazione o l'aggiunta al sito, oppure fai tutto tu [inviando una Pull Request al repository GitHub di questo sito]()!
+Contatta [`@steffo:uniberry.info`](https://www.steffo.eu) se hai bisogno di consigli per la pubblicazione o l'aggiunta al sito, oppure fai tutto tu [inviando una Pull Request al repository GitHub di questo sito](https://github.com/uniberry-info/lokiweb/edit/main/appunti.md)!
