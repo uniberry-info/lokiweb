@@ -12,7 +12,7 @@ Nella rete Uniberry si è creata una cultura di **pubblicazione gratuita degli a
 
 Puoi trovare qui sotto le risorse condivise negli anni dagli studenti:
 
-- **[Erre2](https://erre2.fermitech.info/)** di [`@EvilBalu:telegram.org`](https://t.me/EvilBalu)
+- **[Erre2](https://erre2.fermitech.dev/)** di [`@EvilBalu:telegram.org`](https://t.me/EvilBalu)
   - Appunti su **tutti i corsi della triennale**
     - *(Seleziona un corso in basso, poi premi il tasto con la nuvoletta e la freccia in giù!)*
 - **[Unisteffo](https://uni.steffo.eu/)** di [`@steffo:uniberry.info`](https://www.steffo.eu/)
