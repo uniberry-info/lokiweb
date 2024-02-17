@@ -36,6 +36,8 @@ Puoi trovare qui sotto le risorse condivise negli anni dagli studenti:
   - Appunti su **vari corsi della magistrale** (work-in-progress!)
 - **[Appunti Cdl Informatica Magistrale](https://www.notion.so/Appunti-Universit-0d4e3e9de000419ca7bbd92f631c1c75)** di [Lorenzo Stigliano](https://t.me/MaxBubblegum)
   - Appunti di tutti i corsi seguiti durante il corso della laurea magistrale in Informatica
+- **[unimore-informatica](https://github.com/rickysixx/unimore-informatica)** di [rickysixx](https://github.com/rickysixx)
+  - Appunti su vari corsi della trienalle e della magistrale di Informatica
 
 - ***<a>Drive magistrale</a>*** di *<a>diversi studenti</a>*
   - Appunti su **tutti i corsi della magistrale**
